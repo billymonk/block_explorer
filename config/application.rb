@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module BlockExplorer
   class Application < Rails::Application
+    require_relative "settings"
+
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 

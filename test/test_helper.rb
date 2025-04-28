@@ -11,5 +11,8 @@ module ActiveSupport
     fixtures :all
 
     # Add more helper methods to be used by all tests here...
+
+    # Custom
+    require Rails.root.join('config', 'settings.rb')
   end
 end
