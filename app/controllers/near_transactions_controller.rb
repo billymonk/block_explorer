@@ -1,6 +1,7 @@
 class NearTransactionsController < ApplicationController
   def index
     @near_transactions = NearTransaction
+      .includes(:actions)
       .joins(:actions)
       .where(actions: { action_type: "Transfer" })
       .distinct
