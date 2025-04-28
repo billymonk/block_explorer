@@ -5,4 +5,9 @@ class NearTransactionsController < ApplicationController
       .where(actions: { action_type: "Transfer" })
       .distinct
   end
+
+  def fetch
+    Clients::Near::Fetcher.call
+    redirect_to root_path, notice: "Near Transactions have been fetched"
+  end
 end

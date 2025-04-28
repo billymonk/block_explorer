@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root to: "near_transactions#index"
+  post :fetch, to: "near_transactions#fetch"
 end

@@ -1,5 +1,10 @@
 h1 Near Transactions
 
+- if flash[:notice]
+  = flash[:notice]
+
+= button_to "Fetch New Near Transactions", fetch_path, method: :post, class: "button"
+
 table
   thead
     tr
