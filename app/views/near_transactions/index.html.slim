@@ -1,0 +1,16 @@
+h1 Near Transactions
+
+table
+  thead
+    tr
+      th Sender
+      th Receiver
+      th Deposit
+  tbody
+    - @near_transactions.each do |near_transaction|
+			tr
+				td= near_transaction.external_sender
+				td= near_transaction.external_receiver
+				- near_transaction.actions.each do |action|
+					td= action.data["deposit"]
+
