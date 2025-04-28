@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  external_time: 2025-04-28 01:19:03
+  external_height: 
+  external_hash: MyString
+  external_block_hash: MyString
+  external_sender: MyString
+  external_receiver: MyString
+  external_gas_burnt: MyString
+  external_actions_count: 1
+  external_success: false
+
+two:
+  external_time: 2025-04-28 01:19:03
+  external_height: 
+  external_hash: MyString
+  external_block_hash: MyString
+  external_sender: MyString
+  external_receiver: MyString
+  external_gas_burnt: MyString
+  external_actions_count: 1
+  external_success: false

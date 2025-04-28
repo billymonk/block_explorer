@@ -1,0 +1,10 @@
+one:
+  near_transaction: one
+  action_type: "Transfer"
+  data: '{"foo": "bar"}'
+
+two:
+  near_transaction: two
+  action_type: "Transfer"
+  data: '{"baz": "quux"}'
+
