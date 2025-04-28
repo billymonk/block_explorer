@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class NearTransactionsController < ApplicationController
   def index
     @near_transactions = NearTransaction

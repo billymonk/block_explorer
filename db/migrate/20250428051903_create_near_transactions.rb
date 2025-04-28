@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateNearTransactions < ActiveRecord::Migration[8.0]
   def change
     create_table :near_transactions do |t|
